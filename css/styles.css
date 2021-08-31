@@ -299,11 +299,22 @@ padding-right:30px;
 text-indent: 2rem;
 width: 75%;
 
-
-
-
-
 }
+
+@media(max-width:1028px){
+
+  body{
+    text-align: center;
+  }
+  #cen{
+    text-align: left;
+  }
+  .mep{
+    text-align: right;
+  }
+  .container{
+    text-align:auto;
+  }
 
 .input-wrapper {
 position: relative;
